@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPYNm5F+r0RVSTRRocFaAMv"
+      "authorship_tag": "ABX9TyNnsNxdhRG+vcqG0BBdmdwa"
     },
     "kernelspec": {
       "name": "python3",
@@ -16,12 +16,7 @@
   },
   "cells": [
     {
-      "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "0fLX3GElSB7r"
-      },
-      "outputs": [],
+      "cell_type": "markdown",
       "source": [
         "@dataclass(frozen=True)\n",
         "class CastSpec:\n",
@@ -31,7 +26,10 @@
         "  animation_lock: float = 0.65\n",
         "  cast_time_ignores_haste: bool = False\n",
         "  recast_time_ignores_haste: bool = False"
-      ]
+      ],
+      "metadata": {
+        "id": "hoRLkIcvUOG7"
+      }
     }
   ]
 }
