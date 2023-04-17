@@ -12,11 +12,11 @@ This tool simulates the damage of given gearsets and rotations for one or more p
 
 We can build several useful tools on top of this simulator:
 
-1) general gear and rotation planning, optimizing for average damage, parsing (high-variance sets), and minimizing the chance of hitting enrage due to bad luck,
-2) fight-specific gear and rotation planning,
-3) speed kill planning,
+1) general gear and rotation planning, optimizing for average damage, parsing (high-variance sets), and minimizing the chance of hitting enrage due to bad luck
+2) fight-specific gear and rotation planning
+3) speed kill planning
 4) normalizing DPS logs to factor out "lucky" crit/dh farming
-5) rotation solver.
+5) rotation solver
 
 On #1:
 We can use the simulator to plan BiS sets- given a gearset and rotation, we can already give the distribution (and average) of damage that will be dealt. Instead of dealing with potency-per-second and average raiding buffs, we can simulate any class' rotation, sim'ing instead 2 minute or more loops (or any rotation) to get a more accurate idea of damage dealt.
