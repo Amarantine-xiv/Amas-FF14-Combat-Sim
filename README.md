@@ -42,12 +42,6 @@ Here is an example of the simulator's output of the WAR opener with full raid bu
 
 ![War opener output](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/war_rotation_output.png?raw=true)
 
-The way this rotation is specified is below (you just type it out):
-![War opener input](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/war_rotation.png?raw=true)
-
-You can also simulate a specific timeline (like from a log) like this:
-![Drk log input](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/drk_rotation.png?raw=true)
-
 # Acknowledgements
 I'd like to thank the following people/groups for their help! Without them, this sim would not be at all possible:
 
