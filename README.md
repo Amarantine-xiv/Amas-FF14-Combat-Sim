@@ -2,7 +2,7 @@
 
 This tool simulates the damage of given gearsets and rotations for one or more players and, produces the full distribution over damage values. Unlike other simulators/spreadsheets, this gives more than just average damage with an approximation of damage variance- this is an accurate [Monte Carlo](https://en.wikipedia.org/wiki/Monte_Carlo_method) simulation that gives the full range and distribution over all possible damage values, similar to [SimulationCraft](https://www.simulationcraft.org/) for World of Warcraft.  The tool has four advantages over existing simulators/spreadsheets:
 
-1) incorporates all damage rolls and crit/dh procs on a per-damage-instance basis, and rolls them every time the sim is run (currently you can do 1M simulation runs in a couple seconds)
+1) incorporates all damage rolls and crit/dh procs on a per-damage-instance basis, and rolls them every time the sim is run (currently you can do 1M simulation runs in a couple seconds),
 
 2) incorporates everything the ecommunity knows about how damage in FF14 works (AFAIK),
 
@@ -12,11 +12,11 @@ This tool simulates the damage of given gearsets and rotations for one or more p
 
 We can build several useful tools on top of this simulator:
 
-1) General gear and rotation planning, optimizing for average damage, parsing (high-variance sets), and minimizing the chance of hitting enrage due to bad luck
-2) Fight-specific gear and rotation planning
-3) Speed kill planning
-4) Normalizing DPS logs to factor out "lucky" crit/dh farming
-5) Rotation solver
+1) general gear and rotation planning, optimizing for average damage, parsing (high-variance sets), and minimizing the chance of hitting enrage due to bad luck,
+2) fight-specific gear and rotation planning,
+3) speed kill planning,
+4) normalizing DPS logs to factor out "lucky" crit/dh farming
+5) rotation solver.
 
 On #1:
 We can use the simulator to plan BiS sets- given a gearset and rotation, we can already give the distribution (and average) of damage that will be dealt. Instead of dealing with potency-per-second and average raiding buffs, we can simulate any class' rotation, sim'ing instead 2 minute or more loops (or any rotation) to get a more accurate idea of damage dealt.
