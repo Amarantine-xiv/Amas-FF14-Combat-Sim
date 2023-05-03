@@ -38,19 +38,17 @@ The simulator is written in Python in a Google Colab notebook. As such, it has a
 
 # Example Simulator Inputs and Outputs
 
-Here is an example of the simulator's output of the WAR opener with full raid buffs:
+Here is an example of the simulator's output of the WHM opener with full raid buffs, which factors in the haste buff due to Presence of Mind:
 
-![War opener output](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/war_rotation_output.png?raw=true)
+![WHM opener output](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/war_pom_result.png?raw=true)
 
-The way this rotation is specified is below (you just type it out):
-![War opener input](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/war_rotation.png?raw=true)
+The way this rotation is specified is below:
+![War opener input](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/whm_pom.png?raw=true)
 
-**Note that this is a simple rotationt he follows a simple GCD timing (they're all the same). For classes like DNC and BLM that do NOT have a rigid "gcd" time for all skills, the simulator can support that too. Example TBD.**
+**Note that here, we assume each button is pressed as soon as possible, and the sim calculates cast times, animation locks, haste buffs (e.g., from Presence of Mind), etc. to figure out when each cast/skill will be performed and when the damage calculation will snapshot. Note also WHM does not have a "rigid" GCD time in the sense that GCD cast and recast time differ based whether PoM is active- the simulator engine can model this for WHM as well as any other class where GCD times may differ for different skills (eg, DNC, SGE) or those with haste buffs (WHM, SAM, etc.)
 
 You can also simulate a specific timeline (like from a log) like this:
 ![Drk log input](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/drk_rotation.png?raw=true)
-
-# Acknowledgements
 
 # Acknowledgements
 I'd like to thank the following people/groups for their help! Without them, this sim would not be at all possible:
