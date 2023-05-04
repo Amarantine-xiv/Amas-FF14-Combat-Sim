@@ -59,6 +59,6 @@ Io Whitespirit
 
 Hint and [Hint's damage calc repo](https://github.com/hintxiv/reassemble)
 
-(Fürst)
+Fürst
 
-(IAmPythagoras + [ff14 combat sim](https://github.com/IAmPythagoras/FFXIV-Combat-Simulato))
+IAmPythagoras and [IAmPythagoras's + FFXIV-Combat-Simulator](https://github.com/IAmPythagoras/FFXIV-Combat-Simulator)
