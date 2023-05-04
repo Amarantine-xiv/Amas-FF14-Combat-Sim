@@ -43,7 +43,7 @@ Here is an example of the simulator's output of the WHM opener (with full raid b
 ![WHM opener output](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/whm_pom_result.png?raw=true)
 
 The way this rotation is specified is below:
-![War opener input](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/whm_pom2.png?raw=true)
+![WHM opener input](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/whm_pom2.png?raw=true)
 
 **Note that here, we assume each button is pressed as soon as possible, and the sim calculates cast times, animation locks, haste buffs (e.g., from Presence of Mind), etc. to figure out when each cast/skill will be performed and when the damage calculation will snapshot.**
 
@@ -51,6 +51,9 @@ Note also WHM does not have a "rigid" GCD time in the sense that GCD cast and re
 
 You can also simulate a specific timeline (like from a log) like this:
 ![Drk log input](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/drk_rotation.png?raw=true)
+
+and the sim will give you an output like this:
+![Drk log output](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/drk_rotation_result.png?raw=true)
 
 # Acknowledgements
 I'd like to thank the following people/groups for their help! Without them, this sim would not be at all possible:
