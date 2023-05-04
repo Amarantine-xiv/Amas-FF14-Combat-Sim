@@ -45,7 +45,9 @@ Here is an example of the simulator's output of the WHM opener with full raid bu
 The way this rotation is specified is below:
 ![War opener input](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/whm_pom2.png?raw=true)
 
-**Note that here, we assume each button is pressed as soon as possible, and the sim calculates cast times, animation locks, haste buffs (e.g., from Presence of Mind), etc. to figure out when each cast/skill will be performed and when the damage calculation will snapshot. Note also WHM does not have a "rigid" GCD time in the sense that GCD cast and recast time differ based whether PoM is active- the simulator engine can model this for WHM as well as any other class where GCD times may differ for different skills (eg, DNC, SGE) or those with haste buffs (WHM, SAM, etc.)
+**Note that here, we assume each button is pressed as soon as possible, and the sim calculates cast times, animation locks, haste buffs (e.g., from Presence of Mind), etc. to figure out when each cast/skill will be performed and when the damage calculation will snapshot.**
+
+Note also WHM does not have a "rigid" GCD time in the sense that GCD cast and recast time differ based whether PoM is active- the simulator engine can model this for WHM as well as any other class where GCD times may differ for different skills (eg, DNC, SGE) or those with haste buffs (WHM, SAM, etc.).
 
 You can also simulate a specific timeline (like from a log) like this:
 ![Drk log input](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/drk_rotation.png?raw=true)
