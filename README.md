@@ -38,9 +38,9 @@ The simulator is written in Python in a Google Colab notebook. As such, it has a
 
 # Example Simulator Inputs and Outputs
 
-Here is an example of the simulator's output of the WHM opener with full raid buffs, which factors in the haste buff due to Presence of Mind:
+Here is an example of the simulator's output of the WHM opener (with full raid buffs- see below for actual raid buffs and timings), which factors in the haste buff due to Presence of Mind:
 
-![WHM opener output](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/war_pom_result.png?raw=true)
+![WHM opener output](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/whm_pom_result.png?raw=true)
 
 The way this rotation is specified is below:
 ![War opener input](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/whm_pom2.png?raw=true)
