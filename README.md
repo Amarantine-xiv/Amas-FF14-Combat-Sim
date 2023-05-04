@@ -61,4 +61,4 @@ Hint and [Hint's damage calc repo](https://github.com/hintxiv/reassemble)
 
 Fürst
 
-IAmPythagoras and [IAmPythagoras's + FFXIV-Combat-Simulator](https://github.com/IAmPythagoras/FFXIV-Combat-Simulator)
+IAmPythagoras and [IAmPythagoras's FFXIV-Combat-Simulator](https://github.com/IAmPythagoras/FFXIV-Combat-Simulator)
