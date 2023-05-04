@@ -4,7 +4,7 @@ This tool simulates the damage of given gearsets and rotations for one or more p
 
 1) incorporates all damage rolls and crit/dh procs on a per-damage-instance basis, and rolls them every time the sim is run (currently you can do 1M simulation runs in a couple seconds),
 
-2) incorporates everything the ecommunity knows about how damage in FF14 works (AFAIK),
+2) incorporates everything the ecommunity knows about how damage in FF14 works (AFAIK and up-to some features TBD),
 
 3) handles the simulation of all FF14 job classes in a single notebook/tool- no need to maintain multiple spreadsheets, etc., and
 
