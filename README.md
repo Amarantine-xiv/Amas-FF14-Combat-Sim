@@ -23,18 +23,16 @@ We can build several useful tools on top of this simulator:
 
 Here is an example of the simulator's output of the WAR opener (with raid buffs- see below for actual raid buffs and timings):
 
-![WAR opener output](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/war_rotation_output2.png?raw=true)
+![WAR opener output](https://github.com/Amarantine-xiv/Amas-FF14-Combat-Sim/blob/main/ff14_sim_pics/war_rotation_output2.png?raw=true)
 
 The way this rotation is specified is below:
-![War opener input](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/war_rotation2.png?raw=true)
+![War opener input](https://github.com/Amarantine-xiv/Amas-FF14-Combat-Sim/blob/main/ff14_sim_pics/war_rotation2.png?raw=true)
 
 **Note that here, we assume each button is pressed as soon as possible, and the sim calculates cast times, animation locks, haste buffs (e.g., from Presence of Mind), etc. to figure out when each cast/skill will be performed, when the damage calculation will snapshot, and when the damage is applied.**
 
 You can also simulate a specific timeline (like from a log) like this:
-![Drk log input](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/drk_rotation.png?raw=true)
+![SAM log input](https://github.com/Amarantine-xiv/Amas-FF14-Combat-Sim/blob/main/ff14_sim_pics/sam_rotation_manual.png?raw=true)
 
-and the sim will give you an output like this:
-![Drk log output](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/drk_rotation_result.png?raw=true)
 
 # Acknowledgements
 I'd like to thank the following people/groups for their help! Without them, this sim would not be at all possible:
