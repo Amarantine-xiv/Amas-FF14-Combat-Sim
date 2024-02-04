@@ -34,13 +34,13 @@ The way this rotation is specified is below:
 
 **Note that here, we assume each button is pressed as soon as possible, and the sim calculates cast times, animation locks, haste buffs (e.g., from Presence of Mind), etc. to figure out when each cast/skill will be performed, when the damage calculation will snapshot, and when the damage is applied.**
 
-You can also simulate a specific timeline (like from a log) like this:
+You can also simulate a specific timeline (like from a log) like this (*Etro + FFlogs integration TBD. See Roadmap below.*):
 ![SAM log input](https://github.com/Amarantine-xiv/Amas-FF14-Combat-Sim/blob/main/ff14_sim_pics/sam_rotation_manual.png?raw=true)
 
 # Roadmap
 This sim is currently under active development under three workflows: improving usability, improving sim accuracy, and building tools on top of this sim. Here is the work planned:
 1) Improve accuracy of sim- bug fixes, and incorporation of newest theorycrafted damage formulas and Dawntrail changes when they come out *(continuous)*
-2) FFlogs integration to re-sim fights to i) factor out damage variance, ii) re-sim fights with different gearsets (with the same GCD), and iii) re-sim fights with a different (shorter) kill time *(~Early March, 2024)*
+2) Etro + FFlogs integration to re-sim fights to i) factor out damage variance, ii) re-sim fights with different gearsets (with the same GCD), and iii) re-sim fights with a different (shorter) kill time *(~Early March, 2024)*
 3) Proc sim'ing + facilities for users to specify rotation logic *(~Early April, 2024)*
 4) A public website with a graphical UI for rotation planning and logs loading + a public simulator backend for people to build on top of *(~End of April, 2024)*
 5) QOL improvements for rotation planning on the website (save a rotation, plan-with-your-static) and logs analysis (compare vs. another log, factoring out gear and crit variance). *(~Mid May)*
