@@ -19,6 +19,8 @@ We can build several useful tools on top of this simulator:
 5) resimming a a fight with a new gearset (assuming same gcd) or different shorter kill time to provide a more gear/kill time independent measure of performance, and
 6) bis/rotation solver.
 
+**If you have feedback on the sim or want to see some example results/rotations, please see [this spreadsheet](https://docs.google.com/spreadsheets/d/1O0ZdJyjMhUAC7YtkyvXPTSNtSAyOFnzm3MBGHTln914/edit?usp=sharing).**
+
 # Example Simulator Inputs and Outputs
 
 Here is an example of the simulator's output of the WAR opener (with raid buffs- see below for actual raid buffs and timings):
