@@ -1,6 +1,8 @@
 # Amas-FF14-Combat-Sim
 
-This tool simulates the damage of given gearsets and rotations and produces the full distribution over damage values. Unlike other simulators/spreadsheets, this gives more than just expected damage with an approximation of damage variance- this is an accurate [Monte Carlo](https://en.wikipedia.org/wiki/Monte_Carlo_method) simulation that gives the full range and distribution over all possible damage values. This tool is currently written as a Python notebook (runnable through Google Colab). The tool has four advantages over existing simulators/spreadsheets:
+This tool simulates the damage of given gearsets and rotations and produces the full distribution over damage values. The tool is currently a Python notebook- see [CoreSimulator.ipynb](https://github.com/Amarantine-xiv/Amas-FF14-Combat-Sim/blob/main/CoreSimulator.ipynb) for the simulator and usage instructions.
+
+Unlike other simulators/spreadsheets, this gives more than just expected damage with an approximation of damage variance- this is an accurate [Monte Carlo](https://en.wikipedia.org/wiki/Monte_Carlo_method) simulation that gives the full range and distribution over all possible damage values. This tool is currently written as a Python notebook (runnable through Google Colab). The tool has four advantages over existing simulators/spreadsheets:
 
 1) handles the simulation of all FF14 job classes in a single place- no need to maintain multiple spreadsheets, etc.,
 
