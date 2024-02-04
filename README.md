@@ -23,7 +23,7 @@ We can build several useful tools on top of this simulator:
 
 Here is an example of the simulator's output of the WAR opener (with raid buffs- see below for actual raid buffs and timings):
 
-![WHM opener output](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/whm_pom_result.png?raw=true)
+![WAR opener output](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/war_rotation_output2.png.png?raw=true)
 
 The way this rotation is specified is below:
 ![WHM opener input](https://github.com/Amarantine-xiv/Another-FF14-Combat-Sim/blob/main/ff14_sim_pics/whm_pom2.png?raw=true)
