@@ -1,4 +1,4 @@
-# Another-FF14-Combat-Sim
+# Amas-FF14-Combat-Sim
 
 This tool simulates the damage of given gearsets and rotations for one or more players and, produces the full distribution over damage values. Unlike other simulators/spreadsheets, this gives more than just average damage with an approximation of damage variance- this is an accurate [Monte Carlo](https://en.wikipedia.org/wiki/Monte_Carlo_method) simulation that gives the full range and distribution over all possible damage values, similar to [SimulationCraft](https://www.simulationcraft.org/) for World of Warcraft.  The tool has four advantages over existing simulators/spreadsheets:
 
