@@ -39,12 +39,13 @@ You can also simulate a specific timeline (like from a log) like this (*Etro + F
 
 # Roadmap
 This sim is currently under active development under three workflows: improving usability, improving sim accuracy, and building tools on top of this sim. Here is the work planned:
-1) Improve accuracy of sim- bug fixes, and incorporation of newest theorycrafted damage formulas and Dawntrail changes when they come out *(continuous)*
+1) Improve accuracy of sim- bug fixes, resource tracking for jobs (QOL improvement). *(~Mid February, 2024)*
 2) Etro + FFlogs integration to re-sim fights to i) factor out damage variance, ii) re-sim fights with different gearsets (with the same GCD), and iii) re-sim fights with a different (shorter) kill time *(~Early March, 2024)*
 3) Proc sim'ing + facilities for users to specify rotation logic *(~Early April, 2024)*
 4) A public website with a graphical UI for rotation planning and logs loading + a public simulator backend for people to build on top of *(~End of April, 2024)*
 5) QOL improvements for rotation planning on the website (save a rotation, plan-with-your-static) and logs analysis (compare vs. another log, factoring out gear and crit variance). *(~Mid May)*
-6) Rotation/BiS solvers using ML *(~Early July 2024)*.
+6) Rotation/BiS solvers using ML *(~Early July 2024)*
+7) Incorporation of newest theorycrafted damage formulas and Dawntrail changes when they come out *(continuous)*
 
 # Acknowledgements
 I'd like to thank the following people/groups for their help! Without them, this sim would not be at all possible:
