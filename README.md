@@ -48,7 +48,7 @@ This sim is currently under active development under three workflows: improving 
 7) Incorporation of newest theorycrafted damage formulas and Dawntrail changes when they come out *(continuous)*
 
 # About me
-I'm an ex-Google software engineer/research scientist. I led a machine learning team for a bunch of years before calling it a day. Prior to Google, I did a PhD in machine learning/AI at an ivy league university. I'm super into making tools to help people acquire new skills and play video games better. This simulator is one such tool! I also make tools for other video games; if you're interested to know more, drop me a line!
+I'm an ex-Google software engineer/research scientist. I led a machine learning team doing applied ML research and some ML infra for many of years before deciding to do something different. Prior to Google, I did a PhD in machine learning/AI at an ivy league university. I'm super into making tools to help people acquire new skills and play video games better. This simulator is one such tool! I also make tools for other video games; if you're interested to know more, drop me a line!
 
 # Acknowledgements
 I'd like to thank the following people/groups for their help! Without them, this sim would not be at all possible:
