@@ -61,7 +61,7 @@ Hint and [Hint's damage calc repo](https://github.com/hintxiv/reassemble)
 
 Fürst
 
-Apollo Van-Waddleburg
+Apollo Van-waddleburg
 
 IAmPythagoras and [IAmPythagoras's FFXIV-Combat-Simulator](https://github.com/IAmPythagoras/FFXIV-Combat-Simulator)
 
