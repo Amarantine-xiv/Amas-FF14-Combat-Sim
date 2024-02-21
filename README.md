@@ -63,7 +63,7 @@ Fürst
 
 Apollo Van-waddleburg
 
-IAmPythagoras and [IAmPythagoras's FFXIV-Combat-Simulator](https://github.com/IAmPythagoras/FFXIV-Combat-Simulator)
+IAmPythagoras and [IAmPythagoras's FFXIV-Combat-Simulator](https://github.com/IAmPythagoras/FFXIV-Combat-Simulator) and [Discord](https://discord.com/invite/mZXKUNy2sw)
 
 Cless
 
