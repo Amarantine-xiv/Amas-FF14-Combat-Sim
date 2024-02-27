@@ -29,6 +29,12 @@ Here is an example of the simulator's output of the WAR opener (with raid buffs-
 
 ![WAR opener output](https://github.com/Amarantine-xiv/Amas-FF14-Combat-Sim/blob/main/ff14_sim_pics/war_rotation_output2.png?raw=true)
 
+The sim will also show you the estimated time when damage lands on the target, and damage/variance of each hit:
+![WAR damage application](https://github.com/Amarantine-xiv/Amas-FF14-Combat-Sim/blob/main/ff14_sim_pics/war_damage_application_ex1.png?raw=true)
+
+And finally, the sim will output the estimated damage ranges for each hit under various conditions (crit, dh, etc.), and will show you the buffs/debuffs that affected it.
+![WAR damage application](https://github.com/Amarantine-xiv/Amas-FF14-Combat-Sim/blob/main/ff14_sim_pics/war_damage_ranges_ex1.png?raw=true)
+
 The way this rotation is specified is below:
 ![War opener input](https://github.com/Amarantine-xiv/Amas-FF14-Combat-Sim/blob/main/ff14_sim_pics/war_rotation2.png?raw=true)
 
