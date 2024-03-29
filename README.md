@@ -43,6 +43,16 @@ The way this rotation is specified is below:
 You can also simulate a specific timeline (like from a log) like this (*Etro + FFlogs integration TBD. See Roadmap below.*):
 ![SAM log input](https://github.com/Amarantine-xiv/Amas-FF14-Combat-Sim/blob/main/ff14_sim_pics/sam_rotation_manual.png?raw=true)
 
+# Kill time estimation
+The sim can also estimate kill times, given boss hp and rotations of your entire party. Here is an example output of the predictions:
+![Kill time pdf](https://github.com/Amarantine-xiv/Amas-FF14-Combat-Sim/blob/main/ff14_sim_pics/kill_time_pdf.png?raw=true)
+![Kill time cdf](https://github.com/Amarantine-xiv/Amas-FF14-Combat-Sim/blob/main/ff14_sim_pics/kill_time_cdf.png?raw=true)
+
+And the inputs to generate this prediction looks like:
+![Kill time input](https://github.com/Amarantine-xiv/Amas-FF14-Combat-Sim/blob/main/ff14_sim_pics/kill_time_proc.png?raw=true)
+
+Note that you can specify LB damage, and can use/re-use and save rotations for later use and tweaking. The sim doesn't currently sim proc RNG (eg, does not sim the different cards you may get on AST, or DNC and BRD procs) for now, but that is planned in a future release.
+
 # Roadmap
 This sim is currently under active development under three workflows: improving usability, improving sim accuracy, and building tools on top of this sim. Here is the work planned:
 1) Improve accuracy of sim- bug fixes, resource tracking for jobs (QOL improvement). *(~Mid February, 2024)*
