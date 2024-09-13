@@ -57,13 +57,13 @@ Note that you can specify LB damage, and can use/re-use and save rotations for l
 Sept 13, 2024 update: THIS ROADMAP IS OUTDATED. I WILL UPDATE IT SOON (SIM IS UNDER ACTIVE DEVELOPMENT STILL, BUT SOME OF THE CHANGES ARE LARGER AND NEED FURTHER TESTING BEFORE BEING DEPLOYED TO THE PUBLIC).
 
 This sim is currently under active development under three workflows: improving usability, improving sim accuracy, and building tools on top of this sim. Here is the work planned:
-1) Improve accuracy of sim- bug fixes, resource tracking for jobs (QOL improvement). *(~Mid February, 2024)*
-2) Etro + FFlogs integration to re-sim fights to i) factor out damage variance, ii) re-sim fights with different gearsets (with the same GCD), and iii) re-sim fights with a different (shorter) kill time *(~Early March, 2024)*
-3) Proc sim'ing + facilities for users to specify rotation logic *(~Early April, 2024)*
-4) A public website with a graphical UI for rotation planning and logs loading + a public simulator backend for people to build on top of *(~End of April, 2024)*
-5) QOL improvements for rotation planning on the website (save a rotation, plan-with-your-static) and logs analysis (compare vs. another log, factoring out gear and crit variance). *(~Mid May)*
-6) Rotation/BiS solvers using ML *(~Early July 2024)*
-7) Incorporation of newest theorycrafted damage formulas and Dawntrail changes when they come out *(continuous)*
+1) Improve accuracy of sim- bug fixes, resource tracking for jobs (QOL improvement). (~Mid February, 2024). **Status: DONE**.
+2) Etro + FFlogs integration to re-sim fights to i) factor out damage variance, ii) re-sim fights with different gearsets (with the same GCD), and iii) re-sim fights with a different (shorter) kill time (~Early March, 2024). **Status: DONE**.
+3) Proc sim'ing + facilities for users to specify rotation logic (~Early April, 2024). **Status: re-prioritized**.
+4) A public website with a graphical UI for rotation planning and logs loading + a public simulator backend for people to build on top of (~End of April, 2024). **Status: UI planning in the works and will be put up on www.xivraider.com when it's done.**
+5) QOL improvements for rotation planning on the website (save a rotation, plan-with-your-static) and logs analysis (compare vs. another log, factoring out gear and crit variance). (~Mid May). **Status: partially done. The logs analysis is available at www.xivraider.com.**
+6) Rotation/BiS solvers using ML (~Early July 2024). **Status: re-prioritized**.
+7) Incorporation of newest theorycrafted damage formulas and Dawntrail changes when they come out (continuous)
 
 # About me
 I'm an ex-Google software engineer/research scientist. I led a machine learning team doing applied ML research and some ML infra for many years before deciding to do something different. Prior to Google, I did a PhD in machine learning/AI at an ivy league university. I'm super into making tools to help people acquire new skills and play video games better. This simulator is one such tool! I also make tools for other video games; if you're interested to know more, drop me a line!
