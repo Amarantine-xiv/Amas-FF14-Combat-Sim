@@ -54,6 +54,8 @@ And the inputs to generate this prediction looks like:
 Note that you can specify LB damage, and can use/re-use and save rotations for later use and tweaking. The sim doesn't currently sim proc RNG (eg, does not sim the different cards you may get on AST, or DNC and BRD procs) for now, but that is planned in a future release.
 
 # Roadmap
+Sept 13, 2024 update: THIS ROADMAP IS OUTDATED. I WILL UPDATE IT SOON (SIM IS UNDER ACTIVE DEVELOPMENT STILL, BUT SOME OF THE CHANGES ARE LARGER AND NEED FURTHER TESTING BEFORE BEING DEPLOYED TO THE PUBLIC).
+
 This sim is currently under active development under three workflows: improving usability, improving sim accuracy, and building tools on top of this sim. Here is the work planned:
 1) Improve accuracy of sim- bug fixes, resource tracking for jobs (QOL improvement). *(~Mid February, 2024)*
 2) Etro + FFlogs integration to re-sim fights to i) factor out damage variance, ii) re-sim fights with different gearsets (with the same GCD), and iii) re-sim fights with a different (shorter) kill time *(~Early March, 2024)*
