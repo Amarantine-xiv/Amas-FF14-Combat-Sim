@@ -1,5 +1,5 @@
 #use_strict_skill_naming = False
-#downtime_windows = [[21,30], [35,40]]
+#downtime_windows = ((21,30), (35,40))
 Time,skill_name,job_class,skill_conditional,targets
 6.3,Chain Stratagem,SCH,,"Boss1"
 0,Onslaught,,,"Boss1"
