@@ -1,3 +1,4 @@
+#stats = {"job_class": "WAR", "wd": 132, "main_stat": 3330, "det_stat": 2182, "crit_stat": 2596, "dh_stat": 940, "speed_stat": 400, "tenacity": 601, "version": "7.2", "level":100}
 #use_strict_skill_naming = False
 #downtime_windows = ((21,30), (35,40))
 Time,skill_name,job_class,skill_conditional,targets
