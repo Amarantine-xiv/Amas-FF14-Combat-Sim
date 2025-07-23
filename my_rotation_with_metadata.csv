@@ -1,3 +1,4 @@
+#fight_start_time=0
 #stats = {"job_class": "WAR", "wd": 132, "main_stat": 3330, "det_stat": 2182, "crit_stat": 2596, "dh_stat": 940, "speed_stat": 400, "tenacity": 601, "version": "7.2", "level":100}
 #use_strict_skill_naming = False
 #enable_autos = True
