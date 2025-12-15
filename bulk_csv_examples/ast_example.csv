@@ -1,0 +1,23 @@
+#stats = {"wd": 152, "main_stat": 5643, "det_stat": 2368, "crit_stat": 3342, "dh_stat": 1230, "speed_stat": 704, "job_class": "AST", "version": "7.3"}
+time,skill_name,job_class,skill_conditional,players_to_buff,overriding_skill_conditional_for_other_players
+0.0,Earthly Star,,,,
+0.65,Fall Malefic,,,,
+3.13,Combust III,,,,
+3.78,Lightspeed,,,,
+5.61,Fall Malefic,,,,
+8.09,Fall Malefic,,,,
+8.19,Divination,,,,
+8.84,the Balance,,,"VPR",
+10.57,Fall Malefic,,,,
+10.67,Lord of Crowns,,,,
+11.32,Umbral Draw,,,,
+13.05,Fall Malefic,,,,
+13.15,the Spear,,,"VPR","Small"
+13.8,Oracle,,,,
+15.53,Fall Malefic,,,,
+18.01,Fall Malefic,,,,
+20.49,Fall Malefic,,,,
+22.97,Fall Malefic,,,,
+25.45,Fall Malefic,,,,
+27.93,Combust III,,,,
+30.41,Fall Malefic,,,,
